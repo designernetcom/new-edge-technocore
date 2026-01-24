@@ -856,3 +856,21 @@
     $(this).addClass("active");
   });
 })(jQuery);
+
+const tabs = document.querySelectorAll(".tab");
+  const panes = document.querySelectorAll(".tab-pane");
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      // Remove active from all
+      tabs.forEach(t => t.classList.remove("active"));
+      panes.forEach(p => {
+        p.classList.remove("active");
+      });
+
+      // Add active to selected
+      tab.classList.add("active");
+      const target = document.getElementById(tab.dataset.tab);
+      target.classList.add("active");
+    });
+  });
