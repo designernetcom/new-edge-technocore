@@ -12852,13 +12852,13 @@ body.megamenu-popup-active .mobile-nav__content {
 .mobile-nav__content .main-menu__list li > a {
   display: flex;
   justify-content: space-between;
-  line-height: 30px;
+  line-height: 18px;
   color: var(--bultax-white, #fff);
   font-size: 13px;
   font-family: var(--bultax-font, "Roboto", sans-serif);
   text-transform: uppercase;
   font-weight: 500;
-  height: 46px;
+  height: 53px;
   letter-spacing: var(--bultax-letter-space, 0.1em);
   align-items: center;
   transition: 500ms;
@@ -21398,6 +21398,9 @@ ul {
   }
   .mobile-nav__content .logo-box img {
     width: 120px;
+  }
+  .page-header__content h2 {
+    font-size: 30px;
   }
 }
 .dropdown-menu {
