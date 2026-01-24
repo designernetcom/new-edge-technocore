@@ -5871,7 +5871,7 @@ p {
     visibility 500ms ease,
     transform 700ms ease;
   z-index: 99;
-  background-color: #0125a0b5;
+  background-color: #0125a0d6;
   box-shadow: 0px 10px 60px 0px
     RGBA(var(--bultax-white-rgb, 255, 255, 255), 0.07);
   padding: 15px 20px 11px;
