@@ -17422,7 +17422,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .service-one__item__content {
   background-color: var(--bultax-white, #fff);
   padding: 36px 10px 10px;
-  height: 880px;
+  /* height: 880px; */
   transition: all 0.4s ease-in-out;
   border-radius: 10px;
   /* clip-path: polygon(18% 0, 82% 0, 100% 16%, 100% 100%, 0 100%, 0 16%); */
